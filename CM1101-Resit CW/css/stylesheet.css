@@ -1,0 +1,149 @@
+/*GENERAL CSS*/
+body {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main{
+  display: flex;
+}
+section{
+  height: flex;
+}
+
+footer{
+  max-width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*COLOURS*/
+body {
+  background-color: #1AADFA;
+}
+header{
+  background-color: white;
+}
+main{
+  background-color: white ;
+}
+section{
+  background-color: white;
+}
+aside{
+  background-color: white;
+}
+article{
+  background-color: white ;
+}
+footer{
+  background-color: inherit;
+}
+#news{
+  background-color: #ADC9AF;
+}
+#events{
+  background-color: #DDDC9A;
+  ;
+}
+/*NAVIGATION*/
+nav>ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+nav>ul>li {
+  float: left;
+}
+nav>ul>li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+/*IMAGES*/
+#logo
+{
+  width: 150px;
+  padding-right: 5px;
+  float: left;
+}
+#arrow
+{
+  width: 50px;
+  float: left;
+  padding-right: 6px;
+}
+#icon1,#icon2,#icon3
+{
+  float: left;
+  width: 50px;
+  padding-right: 5px;
+}
+#chief,#director
+{
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding-right: 20px;
+}
+
+
+/*TEXT*/
+a {
+  font: 25px / 1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-weight: 500;
+}
+h1 {
+  font: 35px / 1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-weight: 700;
+}
+h2 {
+  font: 20px / 1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-weight: 700;
+}
+h3 {
+  font: 20px / 1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-weight: 500;
+}
+h4 {
+  font: 17px / 1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-weight: 100;
+}
+p{
+  font: 14px / 1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-weight: 100;
+}
+
+/*POSITION FIXES*/
+
+header{
+  padding-top: 11px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+section{
+padding-top: 11px;
+padding-left: 11px;
+padding-right: 11px;
+}
+aside p,h3,h4{
+  margin: 0;
+}
+aside h3{
+  padding-top: 11px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+aside h4{
+  padding-top: 19px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+aside p{
+  padding-top: 19px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
